@@ -14,7 +14,7 @@ int main(){
             for (j=i+1; j<n; j++){
                 if (arr[i]==arr[j]){
                     count++;
-                    arr[j]=-1;
+                    arr[j]=-1; //to replace the number which gets visited.
                 }
             }
             freq[i]=count;
