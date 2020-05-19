@@ -1,16 +1,6 @@
 #include <iostream>
 #define MAX 1000
 
-// class stack{
-// 	int top;
-// 	public:
-// 		int a[MAX];
-// 		bool push(int x);
-// 		int pop();
-// 		bool isempty();
-// 		int peek();
-// 		bool isfull();		
-// };
 
 int top;
 int a[MAX];
@@ -58,14 +48,13 @@ bool push(int x){
 
 int main() 
 {
-	std::cout<<"hii\n"; 
-    //class stack s; 
+    
     push(10); 
     push(20); 
     push(30); 
     std::cout << peek() << " peek"<<std::endl;
-	std::cout << pop() << " popped"<<std::endl; 
-  	std::cout << pop() << " popped"<<std::endl;
+    std::cout << pop() << " popped"<<std::endl; 
+    std::cout << pop() << " popped"<<std::endl;
     std::cout << peek() << " peek"<<std::endl;
 	
 	return 0; 
