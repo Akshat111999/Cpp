@@ -11,7 +11,7 @@ void print(vector<int> v1){  //function to print the vector
 }
 
 int main(){
-    vector<int> v1(4);
+    vector<int> v1(4); //syntax vector<datatype> nameOfVariable(size);
     v1[0]=8;
     v1[1]=4;
     v1[2]=2;
