@@ -3,7 +3,7 @@
 #include<algorithm>
 using namespace std;
 
-void print(vector<int> v1){
+void print(vector<int> v1){  //function to print the vector
     for (int i=0; i<v1.size(); i++){
         cout<<v1[i]<<" ";
     }
@@ -19,7 +19,7 @@ int main(){
     cout<<"before sort\n";
     print(v1);
     cout<<"\nafter sorting, Ascending\n";
-    sort(v1.begin(), v1.end());
+    sort(v1.begin(), v1.end());  //sort() is included in algorithm header file
     print(v1);
     cout<<"\nafter sorting, Descending\n";
     sort(v1.begin(), v1.end(),greater<int>());
