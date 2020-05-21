@@ -1,9 +1,8 @@
 #include<iostream>
-#include<vector>
 using namespace std;
 int main(){
     int n,count=0;
-    cout<<"enter number to check it is prime number or not: \n";
+    cout<<"enter a number to check it is a prime number or not: \n";
     cin>>n;
     int m=n/2;
     for(int i=2; i<=m; i++){
