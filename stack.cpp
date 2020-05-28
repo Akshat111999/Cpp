@@ -1,3 +1,9 @@
+//Stack is a linear data structure which follows a particular order in which the operations are performed. 
+//Main operations:-
+//Push 
+//Pop
+//Peek or Top
+
 #include <iostream>
 #define MAX 1000
 
@@ -5,19 +11,6 @@
 int top;
 int a[MAX];
 
-bool isempty(){
-	if (top<0){
-		return true;
-	}
-	return false;
-}
-
-bool isfull(){
-	if (top==MAX-1){
-		return true;
-	}
-	return false;
-}
 
 int pop(){
 	if (top<0){
