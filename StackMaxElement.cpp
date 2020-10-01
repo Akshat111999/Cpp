@@ -1,6 +1,6 @@
 #include<iostream>
 #define MAX 4
-
+//Stack works with LIFO principle 
 int top=-1;
 int a[MAX];
 
