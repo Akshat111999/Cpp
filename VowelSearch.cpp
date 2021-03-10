@@ -1,5 +1,6 @@
 //Write a method called vowelCount that accepts a String as a parameter and produces/returns an array of integers representing the count of each vowel in the String. 
 //The array returned by your method should hold five elements: the first is the count of the 'A's, the second is the count of 'E's, the third 'I"s, the fourth 'O's and the fifth the number of 'U's. 
+
 //Your count should check for both upper and lower case versions.
 
 //For example the call vowelCount("I think therefore I am") should return the array [1,3,3,1,0].
